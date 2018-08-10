@@ -16,7 +16,6 @@
 		D99AFC1E2107727C00E6E50E /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99AFC1D2107727C00E6E50E /* CurrentLocationViewController.swift */; };
 		D99AFC232107727C00E6E50E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99AFC212107727C00E6E50E /* Main.storyboard */; };
 		D99AFC252107728D00E6E50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99AFC242107728D00E6E50E /* Assets.xcassets */; };
-		D99AFC282107728D00E6E50E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99AFC262107728D00E6E50E /* LaunchScreen.storyboard */; };
 		D99AFC30210A154800E6E50E /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99AFC2F210A154800E6E50E /* LocationDetailsViewController.swift */; };
 		D99AFC32210B6A2000E6E50E /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99AFC31210B6A2000E6E50E /* CategoryPickerViewController.swift */; };
 		D99AFC34210B720C00E6E50E /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99AFC33210B720C00E6E50E /* HudView.swift */; };
@@ -28,6 +27,7 @@
 		D9CE27BB211C2869001D0DAC /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE27BA211C2869001D0DAC /* MyTabBarController.swift */; };
 		D9CE27BD211C2944001D0DAC /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE27BC211C2944001D0DAC /* MyNavigationController.swift */; };
 		D9CE27BF211C2A51001D0DAC /* MyImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE27BE211C2A51001D0DAC /* MyImagePickerController.swift */; };
+		D9CE27C1211D7D92001D0DAC /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = D9CE27C0211D7D92001D0DAC /* Sound */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,6 @@
 		D99AFC1D2107727C00E6E50E /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
 		D99AFC222107727C00E6E50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D99AFC242107728D00E6E50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D99AFC272107728D00E6E50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99AFC292107728D00E6E50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99AFC2F210A154800E6E50E /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 		D99AFC31210B6A2000E6E50E /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		D9CE27BA211C2869001D0DAC /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		D9CE27BC211C2944001D0DAC /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
 		D9CE27BE211C2A51001D0DAC /* MyImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagePickerController.swift; sourceTree = "<group>"; };
+		D9CE27C0211D7D92001D0DAC /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +71,7 @@
 		D99AFC0F2107727C00E6E50E = {
 			isa = PBXGroup;
 			children = (
+				D9CE27C0211D7D92001D0DAC /* Sound */,
 				D989E874210F69630034D6E9 /* Location+CoreDataClass.swift */,
 				D989E875210F69630034D6E9 /* Location+CoreDataProperties.swift */,
 				D99AFC1A2107727C00E6E50E /* MyLocations */,
@@ -98,7 +99,6 @@
 				D99AFC35210B790C00E6E50E /* Functions.swift */,
 				D99AFC33210B720C00E6E50E /* HudView.swift */,
 				D99AFC292107728D00E6E50E /* Info.plist */,
-				D99AFC262107728D00E6E50E /* LaunchScreen.storyboard */,
 				D99AFC2F210A154800E6E50E /* LocationDetailsViewController.swift */,
 				D99AFC212107727C00E6E50E /* Main.storyboard */,
 				D989E8782110E0D60034D6E9 /* LocationsViewController.swift */,
@@ -184,8 +184,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D99AFC282107728D00E6E50E /* LaunchScreen.storyboard in Resources */,
 				D99AFC252107728D00E6E50E /* Assets.xcassets in Resources */,
+				D9CE27C1211D7D92001D0DAC /* Sound in Resources */,
 				D99AFC232107727C00E6E50E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,14 +226,6 @@
 				D99AFC222107727C00E6E50E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D99AFC262107728D00E6E50E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D99AFC272107728D00E6E50E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -357,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9D23U6XAWC;
 				INFOPLIST_FILE = MyLocations/Info.plist;
@@ -375,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9D23U6XAWC;
 				INFOPLIST_FILE = MyLocations/Info.plist;
